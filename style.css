@@ -481,13 +481,6 @@ footer a:hover {
 
 /* Contact Page */
 
-.parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 #contact-details {
     display: flex;
     align-items: center;
@@ -511,7 +504,6 @@ footer a:hover {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
-    align-items: center;
 }
 
 #contact-details .details h3 {
