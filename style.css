@@ -321,7 +321,7 @@ body {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #e4e8fb;
 }
@@ -353,7 +353,8 @@ footer p {
 footer .col {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -466,7 +467,7 @@ footer a:hover {
 }
 
 #about-head img {
-    width: 50%;
+    width: 25%;
     height: auto;
 }
 
@@ -480,6 +481,12 @@ footer a:hover {
 
 
 /* Contact Page */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 #contact-details {
     display: flex;
@@ -497,6 +504,7 @@ footer a:hover {
 #contact-details .details span,
 #form-details span {
     font-size: 12px;
+    align-items: center;
 }
 
 #contact-details .details h2,
@@ -504,6 +512,7 @@ footer a:hover {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
+    align-items: center;
 }
 
 #contact-details .details h3 {
@@ -539,10 +548,9 @@ footer a:hover {
 
 #form-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px;
     padding: 80px;
-    border: 1px solid #e1e1e1;
 }
 
 #form-details form {
@@ -554,7 +562,7 @@ footer a:hover {
 
 #form-details form input,
 #form-details form textarea {
-    width: 100%;
+    width: 300%;
     padding: 12px 15px;
     outline: none;
     margin-bottom: 20px;
